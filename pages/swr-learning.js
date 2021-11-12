@@ -1,6 +1,7 @@
 import useSWR from "swr";
 import Layout from "../components/layout/layout";
 import { useState } from "react";
+import Head from "next/head";
 
 function fetcher(url) {
   return fetch(url).then((res) => res.json());
@@ -27,6 +28,9 @@ export default function SwrLearning() {
 
   return (
     <Layout>
+      <Head>
+        <title>SWR</title>
+      </Head>
       <h1>SWR</h1>
       <p>
         Random Kanye quote from{" "}
