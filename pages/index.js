@@ -52,6 +52,17 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
+        <section>
+          <h3 className={`${utilStyles.headingLg} ${utilStyles.disclaimer}`}>
+            Additional
+          </h3>
+          <p className={utilStyles.disclaimerText}>
+            Next part isn't from official tutorial, just some tries
+          </p>
+          <Link href={"/swr-learning"}>
+            <a>Just learning about SWR</a>
+          </Link>
+        </section>
       </section>
     </Layout>
   );

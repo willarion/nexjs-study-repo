@@ -50,3 +50,11 @@
 .lightText {
   color: #666;
 }
+
+.disclaimer {
+  margin: 3rem 0 .5rem;
+}
+
+.disclaimerText {
+  margin: 0.5rem 0;
+}
